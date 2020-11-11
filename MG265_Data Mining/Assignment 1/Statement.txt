@@ -1,0 +1,13 @@
+MG 265 Data Mining
+Assignment 1 - MapReduce
+Due Date - Nov 17
+
+You are provided with the data of ratings of 36383 movies by 69324 movie watcher. The data in the movies.txt is in the form movie id::movie name (year)::genre|genre|genre. The data in the ratings.txt file is in the form user
+id::movie id::rating::rating time stamp. Write MapReduce routines to accomplish the following tasks.
+
+1. Descriptive statistics of movie ratings (average rating, standard deviation of rating, minimum rating, maximum rating);
+
+2. Descriptive statistics on the number of movies rated by movie watchers (average rating, standard deviation of rating, minimum number of movies rated by movie watcher, maximum number of movies rated by a movie watcher);
+3. Top ten movies by year; and
+
+4. Top five similar movies for each top 10 movies of each year. Similarity is defined in terms of the users who have rated them. If a pair of movies has been rated by exactly the same set of movie goers then those movies are rated to be highly similar.
